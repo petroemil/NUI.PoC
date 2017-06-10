@@ -1,13 +1,12 @@
-﻿# Touchpad v2
+﻿# AirTouch with Kinect
 
-My first experiment is a slightly different approach to the touchpad that we all know very well with all of its limitations.
+Have you ever tried to move the hand cursor on an Xbox? Did it feel natural? Did you have the feeling that you are in control of the situation?
 
-I wanted to design an interaction model that is closer to a real mouse and enables some interactions that were not possible with a touchpad, or if they were, they were a bit awkward.
+I was thinking, why can't it be simpler, more natural?
 
-So, here is the idea: Use the Middle finger as a pointer, and use the Index finger and the Ring finger as left and right buttons.
+So I came up with a different method to move a cursor on the screen with your hand.
 
-When only one finger is down, its only going to move the cursor, no accidental taps or dropping a dragged piece of content because we accidentally ran off the touchpad surface.
+The basic assumption is that when you try to point to something on the screen, you will raise your index finger and place it in front of you, so it will cover (from your perspective) the piece of UI that you are pointing to. Translating it to a more mathematical definition, the cursor should be projected on the screen where the 3D line defined by your eye and index finger intersects the plane of the display.
 
-Using either the left or right mouse button doesn't require the finger to be lifted (and a "tap" gesture to be made), or an awkward pose to use the physical button on the bottom of the touchpad with our thumb.
+As a first iteration I just made a simple application that does nothing more than showing a cursor where you are pointing at the screen. It does the only the most basic and most necessary things, but it's a good foundation to build on top of.
 
-As a very first step, I made a pretty raw PoC app to at least build the most basic functionality, to process touch events and detect the different fingers.
