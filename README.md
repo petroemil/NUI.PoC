@@ -4,7 +4,7 @@ I made this little project for research purposes. I had a couple of ideas in my 
 
 ## [Touchpad v2](NUI.Touchpad)
 
-My first experiment is a slightly different approach to the touchpad that we all know very well with all of its limitations.
+My first experiment is a different approach to the touchpad that we all know very well with all of its limitations.
 
 I wanted to design an interaction model that is closer to a real mouse and enables some interactions that were not possible with a touchpad, or if they were, they were a bit awkward.
 
@@ -16,4 +16,10 @@ Have you ever tried to move the hand cursor on an Xbox? Did it feel natural? Did
 
 I was thinking, why can't it be simpler, more natural?
 
-So I came up with a different method to move a cursor on the screen with your hand.
+So I came up with a different method to show the cursor on the screen where you are pointing at.
+
+## COMING SOON
+
+I will upload some short videos to demonstrate the apps for those who can't or don't want to clone and try them on their own computers.
+
+Extensions to the core applications to demonstrate these interaction methods in real world scenarios.
