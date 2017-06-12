@@ -18,6 +18,12 @@ I was thinking, why can't it be simpler, more natural?
 
 So I came up with a different method to show the cursor on the screen where you are pointing at.
 
+Below you can see a quick demonstration video:
+ * The cursor has a delay because of the smoothing algorithm, in its raw state it's more responsive, but also more noisy
+ * Sorry for the portrait video
+
+[![AirTouch with Kinect](https://petroemil.files.wordpress.com/2017/06/kinect_video-thumbnail.jpg?w=500)](https://1drv.ms/v/s!AqjQ1Tr5u9-ExaNmVEuFvAHjVYNWPw)
+
 ## COMING SOON
 
 I will upload some short videos to demonstrate the apps for those who can't or don't want to clone and try them on their own computers.
