@@ -30,8 +30,4 @@ Below you can see a quick demonstration video:
 
 ## COMING SOON
 
-I will upload some short videos to demonstrate the apps for those who can't or don't want to clone and try them on their own computers.
-
-## COMING LATER
-
 Extensions to the core applications to demonstrate these interaction methods in real world scenarios.
