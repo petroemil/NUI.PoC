@@ -8,7 +8,7 @@ namespace NUI.Touchpad
 {
     public sealed partial class MainPage : Page
     {
-        private readonly Brush activeBrush = new SolidColorBrush(Colors.Green);
+        private readonly Brush activeBrush = new SolidColorBrush(Colors.Orange);
         private readonly Brush inactiveBrush = new SolidColorBrush(Colors.Black);
 
         public MainPage()

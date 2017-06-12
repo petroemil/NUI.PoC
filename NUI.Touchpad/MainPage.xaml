@@ -8,11 +8,13 @@
 
     <Canvas Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <StackPanel x:Name="VirtualCursor" Canvas.Left="250" Canvas.Top="250" Orientation="Horizontal">
-            <Ellipse x:Name="LeftFinger" Fill="Black" Width="25" Height="25" Margin="10" />
-            <Ellipse Fill="Gray" Width="25" Height="25" Margin="10" />
-            <Ellipse x:Name="RightFinger" Fill="Black" Width="25" Height="25" Margin="10" />
-        </StackPanel>
+        <Canvas x:Name="VirtualCursor" Canvas.Left="250" Canvas.Top="250">
+
+            <Ellipse x:Name="LeftFinger" Fill="Black" Width="100" Height="100" Canvas.Left="-50" />
+            <Ellipse x:Name="RightFinger" Fill="Black" Width="100" Height="100" Canvas.Left="50" />
+            <Rectangle Fill="Gray" Width="100" Height="100" />
+
+        </Canvas>
 
     </Canvas>
 </Page>

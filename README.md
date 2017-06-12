@@ -10,6 +10,10 @@ I wanted to design an interaction model that is closer to a real mouse and enabl
 
 So, here is the idea: Use the Middle finger as a pointer, and use the Index finger and the Ring finger as left and right buttons.
 
+Below is a very quick demonstration video using the sample app from the repo:
+
+[![Touchpad v2](https://petroemil.files.wordpress.com/2017/06/touchpad_video-thumbnail1.jpg?w=500)](https://1drv.ms/v/s!AqjQ1Tr5u9-ExaVbOTO4D0gRBiqQiQ)
+
 ## [AirTouch with Kinect](NUI.Kinect)
 
 Have you ever tried to move the hand cursor on an Xbox? Did it feel natural? Did you have the feeling that you are in control of the situation?
