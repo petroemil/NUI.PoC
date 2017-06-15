@@ -4,6 +4,21 @@ using System.Windows;
 
 namespace NUI.Kinect
 {
+    public class VirtualPointer
+    {
+        public Vector2 Position { get; set; }
+        public float Depth { get; set; }
+
+        public static VirtualPointer Create(JointPositions joints, Gemoetry3D geometryHelper)
+        {
+            return new VirtualPointer
+            {
+                Position = geometryHelper.Intersect(joints.Head, joints.Hand),
+                Depth = geometryHelper.GetFingerTipDepth(joints.Hand),
+            };
+        }
+    }
+
     public class Gemoetry3D
     {
         private readonly Matrix4x4 inverseTransformMatrix;
@@ -60,6 +75,13 @@ namespace NUI.Kinect
             var intersectionY = this.IntersectsYAxis(hand.Z, hand.Y, head.Z, head.Y);
 
             return new Vector2(intersectionX, intersectionY);
+        }
+
+        public float GetFingerTipDepth(Vector3 handRealWorldPosition)
+        {
+            var hand = this.TranslateRealWorldCoordinate(handRealWorldPosition);
+
+            return hand.Z;
         }
 
         // if we assume that there are two points: A(x1, y1) and B(x2, y2)

@@ -8,7 +8,10 @@
     <Canvas>
         <Ellipse x:Name="FingerPointer" Width="100" Height="100" Fill="Gray">
             <Ellipse.RenderTransform>
-                <TranslateTransform X="-50" Y="-50" />
+                <TransformGroup>
+                    <TranslateTransform X="-50" Y="-50" />
+                    <ScaleTransform x:Name="ScaleTransform" CenterX="0.5" CenterY="0.5" />
+                </TransformGroup>
             </Ellipse.RenderTransform>
         </Ellipse>
     </Canvas>
